@@ -1,0 +1,13 @@
+table{
+    margin: 10px auto;
+    width: 800px;
+    text-align: center;
+}
+th{
+    background-color: lightgreen;
+}
+body{
+    background-image: url("registerback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

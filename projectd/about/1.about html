@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HopeCare - Donate for Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <h1>HopeCare</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#causes">Causes</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Give Hope. Save Lives.</h2>
+    <p>Your small donation can fight deadly diseases and bring smiles.</p>
+    <a href="#donate" class="btn">Donate Now</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Diseases & Awareness</h2>
+    <p>
+        Millions of people suffer from diseases like cancer, heart disease,
+        and diabetes every year. Early diagnosis and proper treatment can save lives.
+        Your support helps provide medicines, treatment, and awareness campaigns.
+    </p>
+</section>
+
+<!-- CAUSES -->
+<section id="causes" class="causes">
+    <h2>Our Causes</h2>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1584515933487-779824d29309" alt="">
+        <h3>Cancer Treatment</h3>
+        <p>Help patients fight cancer with proper medical care.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef" alt="">
+        <h3>Heart Disease</h3>
+        <p>Support heart surgeries and treatments.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1580281657527-47d9e90aeb47" alt="">
+        <h3>Child Healthcare</h3>
+        <p>Save children suffering from critical illnesses.</p>
+    </div>
+
+</section>
+
+<!-- DONATION FORM -->
+<section id="donate" class="donate">
+    <h2>Make a Donation</h2>
+
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="number" placeholder="Amount (₹)" required>
+        <select>
+            <option>Select Cause</option>
+            <option>Cancer</option>
+            <option>Heart Disease</option>
+            <option>Child Healthcare</option>
+        </select>
+        <button type="submit">Donate Now ❤️</button>
+    </form>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+    <h2>Our Work</h2>
+    <div class="images">
+        <img src="https://images.unsplash.com/photo-1588776814546-ec7e68f4f7b5">
+        <img src="https://images.unsplash.com/photo-1581595219315-a187dd40c322">
+        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@hopecare.org</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 HopeCare | Spread Love ❤️</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="/projectd/letter-d.png">
+    <link rel="stylesheet" href="/projectd/main.css">
+    <link rel="stylesheet" href="newfund.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="open">
+            <li><a href="/projectd/main.html" class="homenav">Home <img src="/projectd/home.png"></a></li>
+            <li><a href="/projectd/about/about.html" class="aboutnav">About <img src="/projectd/information-button.png"></a></li>
+            <li><a href="" class="servicesnav">Services<img src="/projectd/services.png"></a></li>
+
+            <li><a href="/projectd/login/login.html" class="loginnav">Login<img src="/projectd/log-in.png"></a></li>
+        </ul>
+    </nav>
+
+    <form action="newfund.php" method="POST" enctype="multipart/form-data">
+        <div id="container">
+            <h1>Apply For Funds</h1>
+            <p1>Enter Your Organisation</p1><br>
+            <input id="tbox" type="text" placeholder="YourOrganisation" class="organisation" name="organisation" required><br><br>
+            <p1>Enter PhoneNumber</p1><br>
+            <input id="tbox" type="text" placeholder="PhoneNumber" class="phonenumber" required name="phonenumber"><br><br>
+            <p1>Enter Email</p1><br>
+            <input id="tbox" type="email" placeholder="Email" class="email" name="email" required><br><br> 
+            <button id="s" onclick="window.location.href='/projectd/login/login.html'">Login</button> <button id="s">Apply</button><br>
+        </div>
+    </form>
+    <script src="register.js"></script>
+</body>
+</html>

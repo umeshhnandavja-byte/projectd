@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HopeCare - Save Lives</title>
+<link rel="stylesheet" href="/projectd/main.css">
+<style>
+    
+/* ===== GLOBAL ===== */
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', sans-serif;}
+body { color:#333; }
+
+/* ===== HEADER ===== */
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: rgba(0,0,0,0.6);
+    color:white;
+    z-index:1000;
+}
+header h1 { font-size:28px; }
+nav a { color:white; margin-left:20px; text-decoration:none; font-weight:bold; }
+nav a:hover { color:#ff6b6b; }
+
+/* ===== HERO ===== */
+.hero {
+    height:100vh;
+    background: url('https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1950&q=80') no-repeat center/cover;
+    display:flex; align-items:center; justify-content:center; position:relative;
+}
+.hero .overlay {
+    background: rgba(0,0,0,0.6);
+    color:white;
+    padding:50px 30px;
+    text-align:center;
+    border-radius:10px;
+}
+.hero h2 { font-size:42px; margin-bottom:15px; }
+.hero p { font-size:20px; margin-bottom:20px; }
+.btn {
+    display:inline-block;
+    padding:12px 25px;
+    background:#ff6b6b;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:18px;
+}
+.btn:hover { background:#ff4b4b; }
+
+/* ===== ABOUT ===== */
+.about { padding:80px 20px; text-align:center; background:#f4f4f4; }
+.about h2 { font-size:36px; margin-bottom:20px; }
+.about p { font-size:18px; line-height:1.6; max-width:800px; margin:0 auto; }
+
+/* ===== PARALLAX MESSAGE ===== */
+.parallax {
+    height:300px;
+    background: url('https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1950&q=80') no-repeat center/cover;
+    display:flex; align-items:center; justify-content:center;
+    background-attachment: fixed;
+}
+.parallax .overlay {
+    background: rgba(0,0,0,0.6);
+    color:white;
+    padding:40px;
+    border-radius:10px;
+    text-align:center;
+}
+.parallax h2 { font-size:36px; }
+
+/* ===== CAUSES ===== */
+.causes { padding:60px 20px; text-align:center; background:#fff; }
+.causes h2 { font-size:36px; margin-bottom:40px; }
+.card {
+    display:inline-block;
+    background:white;
+    padding:25px 20px;
+    margin:15px;
+    width:280px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+.card h3 { font-size:24px; margin-bottom:15px; }
+.card p { font-size:16px; line-height:1.4; }
+
+/* ===== FOOTER ===== */
+footer { text-align:center; padding:25px; background:#222; color:white; font-size:16px; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width:768px) {
+    header { flex-direction:column; text-align:center; }
+    nav a { margin:10px; }
+    .card { width:90%; }
+}
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="open">
+            <li><a href="/projectd/main.html" class="homenav">Home <img src="/projectd/home.png"></a></li>
+            <li><a href="/projectd/about/about.html" class="aboutnav">About <img src="/projectd/information-button.png"></a></li>
+            <li><a href="" class="servicesnav">Services<img src="/projectd/services.png"></a></li>
+
+            <li><a href="/projectd/login/login.html" class="loginnav">Login<img src="/projectd/log-in.png"></a></li>
+        </ul>
+    </nav>
+<!-- HEADER -->
+<header>
+    <h1>HopeCare</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#causes">Causes</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="overlay">
+        <h2>"A Small Help Can Make A Big Change"</h2>
+        <p>Every donation is a step toward saving a life.</p>
+        <a href="#causes" class="btn">Our Causes ❤️</a>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+    <h2>Why Your Help Matters</h2>
+    <p>
+        Millions of people suffer from life-threatening diseases every year. 
+        Many cannot afford treatment. Your support helps provide medicines, surgeries, 
+        and hope to families in need.
+    </p>
+</section>
+
+<!-- PARALLAX MESSAGE -->
+<section class="parallax">
+    <div class="overlay">
+        <h2>"Together We Can Heal The World"</h2>
+    </div>
+</section>
+
+<!-- CAUSES SECTION -->
+<section id="causes" class="causes">
+    <h2>Our Mission</h2>
+    <div class="card">
+        <h3>Cancer Care</h3>
+        <p>Support chemotherapy and life-saving treatments.</p>
+    </div>
+    <div class="card">
+        <h3>Heart Surgery</h3>
+        <p>Help patients get critical heart operations.</p>
+    </div>
+    <div class="card">
+        <h3>Child Health</h3>
+        <p>Save children suffering from severe diseases.</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 HopeCare | Made with ❤️ to Save Lives</p>
+</footer>
+
+</body>
+</html>

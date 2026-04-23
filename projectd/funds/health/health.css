@@ -1,0 +1,31 @@
+div{
+    margin-right:30px;
+    margin-left:30px;
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+body{
+    background-image: url("");
+}
+a:hover{
+    background-color:white;
+    color:black;
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px;
+}
+#products{
+    width:1100px;
+    padding:40px;
+}
+#pimg{
+    width:128px;
+    height:128px;
+    background-color:white;
+    margin-left:40px;
+}
+#pages{
+    text-align: center;
+}

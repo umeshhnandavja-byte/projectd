@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="icon" href="/projectd/letter-d.png">
+        <link rel="stylesheet" href="/projectd/main.css">
+    </head>
+    <body>
+        <nav class="navbar">
+        <ul class="open">
+            <li><a href="/projectd/main.html" class="homenav">Home <img src="/projectd/home.png"></a></li>
+            <li><a href="/projectd/about/about.html" class="aboutnav">About <img src="/projectd/information-button.png"></a></li>
+            <li><a href="" class="servicesnav">Services<img src="/projectd/services.png"></a></li>
+
+            <li><a href="/projectd/login/login.html" class="loginnav">Login<img src="/projectd/log-in.png"></a></li>
+        </ul>
+    </nav>
+
+        <form>
+        <div id="container">
+	    <h1>Login</h1>
+            <p1>Enter Username</p1><br>
+            <input id="tbox" type="text" placeholder="Username" class="username" name="username" required><br><br>
+            <p1>Enter Password</p1><br>
+            <input type="password" id="pass" placeholder="Password" class="password" required><br><br>
+            <input type="checkbox" onclick="my()" autocomplete="off"><p1>Show Password</p1><br><br>
+            <button onclick="window.location.href='/projectd/register/register.html'" id="su">Register</button> <button id="s">Login</button>
+        </div>
+        </form>
+        <script src="login.js"></script>
+    </body>
+</html>

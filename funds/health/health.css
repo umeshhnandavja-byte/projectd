@@ -1,0 +1,73 @@
+div{
+    margin-right:30px;
+    margin-left:30px;
+    background-color:rgba(0,0,0,1);
+    color: white;
+}
+#search{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    background-color: #7AAACE;
+    border-radius: 0%;
+}
+body{
+    background-image: url("");
+}
+#donate{
+    background-color: greenyellow;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-left: 1000px;
+}
+#donate:hover{
+    background-color: rgb(109, 196, 22);
+    color:black;
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px;
+}
+#orgbox{
+    width:1100px;
+    padding:40px;
+}
+#orgimg{
+    width:128px;
+    height:128px;
+    background-color:white;
+    margin-left:40px;
+}
+#pages{
+    text-align: center;
+}
+#search-box{
+    width: 85%;
+    height: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+#search-btn{
+    width: 12%;
+    height: 30px;
+    border-radius: 0%;
+    background-color: aqua;
+    margin: 0;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+#bar{
+    margin-left: 85%;
+}
+a{
+    text-decoration: none;
+}

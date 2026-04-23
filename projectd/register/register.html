@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="/projectd/letter-d.png">
+    <link rel="stylesheet" href="/projectd/main.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="open">
+            <li><a href="/projectd/main.html" class="homenav">Home <img src="/projectd/home.png"></a></li>
+            <li><a href="/projectd/about/about.html" class="aboutnav">About <img src="/projectd/information-button.png"></a></li>
+            <li><a href="" class="servicesnav">Services<img src="/projectd/services.png"></a></li>
+
+            <li><a href="/projectd/login/login.html" class="loginnav">Login<img src="/projectd/log-in.png"></a></li>
+        </ul>
+    </nav>
+
+    <form action="register.php" method="POST" enctype="multipart/form-data">
+        <div id="container">
+            <h1>Sign Up</h1>
+            <p1>Upload Image (Optional)</p1><br>
+            <input type="file" accept="image/*" name="photo"><br>
+            <input type="submit" value="Upload"><br><br>
+            <p1>Enter Your Name</p1><br>
+            <input id="tbox" type="text" placeholder="YourName" class="name" name="name" required><br><br>
+            <p1>Enter Username</p1><br>
+            <input id="tbox" type="text" placeholder="Username" class="username" required name="username"><br><br>
+            <p1>Enter Email</p1><br>
+            <input id="tbox" type="email" placeholder="Email" class="email" name="email" required><br><br> 
+            <p1>Enter Password</p1><br>
+            <input type="password" id="pass" placeholder="Password" class="password" name="password" required><br><br>
+            <p1>Confirm Password</p1><br>
+            <input type="password" id="cpass" placeholder="Confirm Password" class="password" required><br><br>
+            <input type="checkbox" onclick="my()" autocomplete="off"><p1>Show Password</p1><br><br>
+            <button id="s" onclick="window.location.href='/projectd/login/login.html'">Login</button> <button id="s">Sign Up</button><br>
+        </div>
+    </form>
+    <script src="register.js"></script>
+</body>
+</html>
